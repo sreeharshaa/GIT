@@ -1,0 +1,11 @@
+node{
+stage('build'){
+git branch: 'Test', url: 'https://github.com/sreeharshaa/GIT.git'
+}  
+stage('deploy'){
+sh label: '', script: 'touch /home/jenkins/dir2/file1'
+}
+stage('test'){
+sh label: '', script: 'rm -rf /home/jenkins/dir2/file1'
+}
+}
