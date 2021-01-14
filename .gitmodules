@@ -1,0 +1,6 @@
+[submodule "GIT/GIT/Simple-DevOps-Project"]
+	path = GIT/GIT/Simple-DevOps-Project
+	url = https://github.com/sreeharshaa/GIT.git
+[submodule "GIT/GIT/hello-world"]
+	path = GIT/GIT/hello-world
+	url = https://github.com/sreeharshaa/GIT.git
